@@ -1,0 +1,240 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header.container,
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-item {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+a {
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+header {
+    background: url('img/header.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header .row {
+    min-height: 100vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 450px auto;
+    justify-content: center;
+}
+
+
+
+
+section {
+    min-height: 100vh;
+    padding: 50px 0;
+}
+
+section1 {
+    max-height: 50vh;
+}
+
+.thefuture {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-family: 'Comfortaa', cursive;
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 22px;
+}
+h5 {
+    font-size: 17px;
+    color:black;
+}
+h6 {
+    padding-top: 175px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12px;
+}
+h7 {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+h8 {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+h7 a {
+    color: black;
+}
+
+#s1 {
+    background-color: #c0bebd;
+    background: url('C:/Users/User/Desktop/Новая папка/img/6-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+#s2 {
+    background-color: #fff;
+    background: url('gallery.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+#s3 {
+    background-color: #fff;
+    background: url('img/7-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+
+.item { 
+     padding-top: 20%;
+}
+.item img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.text {
+    color: black;
+    margin-top: 40px;
+}
+
+
+#s4 {
+    background-color: #FFFFFF;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+}
+
+
+
+.footer {
+    padding:30px;
+    min-height: 230px;
+   
+}
+
+
+
+.item1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.item1 p,
+.item2 p {
+    font-size: 15px;
+    color: black;
+    line-height: 3px;
+}
+
+.item5 {
+    display: block;
+    text-align: right;
+    margin-top: -100px;
+}
+
+
+
+/**************************************/
+
+
+/* Зміна властивостей для breakpoints */
+
+
+/**************************************/
+
+@media screen and (max-width:767px) {
+    .carousel {
+        min-height: 100vh;
+    }
+    .container {
+        width: 100%;
+    }
+    .grid {
+        grid-template-columns: 300px auto;
+        padding-top: 80px;
+    }
+    .thefuture {
+        padding-top: 0;
+        width: 300px;
+    }
+    .grid__item2 {
+        margin-left: -2000px;
+        margin-top: -300px;
+        z-index: -1;
+    }
+    h6 {
+        padding-top: 60px;
+    }
+    .cssSlider {
+        width: 80%;
+    }
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .item5 {
+        display: block;
+        text-align: left;
+        margin-top: 0px;
+        padding-top: 20px;
+    }
+    .item11 {
+        display: none;
+      
+    }
+    .item2 {
+        padding-top: 5px;
+      
+    }
+  
+
+}
